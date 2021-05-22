@@ -1,0 +1,41 @@
+body{
+    background-color: #EEEFEC;
+}
+
+.container .col__left{
+        border: 1px solid gray;
+        background-color:white;
+}
+
+.col__left .vglassess__items{
+    cursor: pointer;
+}
+
+
+.container .col__right{
+    border: 1px solid #D1D2CF;
+    background-image: url("../img/model.jpg");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.col__right .vglasses__model{
+    position: absolute;
+    top: 23%;
+    left: 8%;
+    opacity: 0.7;
+}
+
+.col__right .vglasses__info{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.753);
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+
+#glasses{
+    transition: all .5s;
+}
